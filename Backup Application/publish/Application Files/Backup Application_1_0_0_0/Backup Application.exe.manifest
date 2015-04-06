@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Backup Application.exe" version="1.0.0.0" publicKeyToken="328983fe49a6ed3f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Backup Application" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Backup Application.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Backup Application.exe" size="41472">
+      <assemblyIdentity name="Backup Application" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>5o6StHMevx7GNJ2XAkugGIa+Hsc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Backup Application.exe.config" size="2560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FR4vpIJa+TBYZg6scS3J9VtckZo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SUMITBINNANI\Sumit" issuerKeyHash="a82a6870949e5a27a9b05388c5f5f5f3a617bab0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>EJb80PmaenYZgNrkxiKH4YHI8sc=</DigestValue></Reference></SignedInfo><SignatureValue>QfsFv01Q9MVmrAXZzLssYEaZAM2Z/BMORZUEMyAo3GlfvAOlL2AkhMm8wfxS6EYrXQHWCdzGxhcSGRufy1ZkNu4gEbUYGyQqxxwtlOcZXQq8B5BEkRh0eyjGnuJlcWEH2D+U9mEX47wVuJCq74zrQYrF18RH1qSHyO3Cu8A/weI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sZFLvtjCBzKSobi42q+kudWZjACHUSSmQpCGzzxFNY43iDEq63eyidOoqfytqXdKQ4rXRarvPJoED+Tuy4BjoKPGVZgF/Oi2AauLOE+MOSOnwMzlEJNng8E/rWV9i5i7acl/e3LWgSMhPfwzj8NeahQgta3mTP2cr3xuSHsErCs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c7f2c881e18722c6e4da8019767a9af9d0fc9610" Description="" Url=""><as:assemblyIdentity name="Backup Application.exe" version="1.0.0.0" publicKeyToken="328983fe49a6ed3f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SUMITBINNANI\Sumit</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0QbFBQKgcbNJeVdBDfgnKcSIAX4=</DigestValue></Reference></SignedInfo><SignatureValue>XIAYc/amkCspt13uAbb+LMXMYjiBSW5Fqc4+7JAh+45o6sYuZ3+QXE0wnL/boFK6aO1psvu2ex50MwNdDkKWcIpjnc02LBGtvd9d0cFMblqEZiENlT6mak1e1un+GndMPuMa1wYwPwHVEk47SGSrOte5aAP+oPoCgd0rHpr/i1Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sZFLvtjCBzKSobi42q+kudWZjACHUSSmQpCGzzxFNY43iDEq63eyidOoqfytqXdKQ4rXRarvPJoED+Tuy4BjoKPGVZgF/Oi2AauLOE+MOSOnwMzlEJNng8E/rWV9i5i7acl/e3LWgSMhPfwzj8NeahQgta3mTP2cr3xuSHsErCs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQIBFC7IXHfblH7Iw9BK2GsDANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAUwBVAE0ASQBUAEIASQBOAE4AQQBOAEkAXABTAHUAbQBpAHQwHhcNMTQxMDA0MDMyMzI3WhcNMTUxMDA0MDkyMzI3WjAvMS0wKwYDVQQDHiQAUwBVAE0ASQBUAEIASQBOAE4AQQBOAEkAXABTAHUAbQBpAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALGRS77YwgcykqG4uNqvpLnVmYwAh1EkpkKQhs88RTWON4gxKut3sonTqKn8ral3SkOK10Wq7zyaBA/k7suAY6CjxlWYBfzotgGrizhPjDkjp8DM5RCTZ4PBP61lfYuYu2nJf3ty1oEjIT38M4/DXmoUILWt5kz9nK98bkh7BKwrAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAIWw195HLF3qpcq/sp/h4FX/TsTESTjyUONerlaCdoFlEN9CE8kg2/tWyW4/uN9xYl1fCk/1My0MJRNGw4MmKZ7gortXb8Ly4wHX0DJjkzo+OBBpabJV8cfSiIO6v5f+VHIRZjQLC83s3CVbp9v1uZDHB34r8CY4Px87DOmrssJ0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
